@@ -27,7 +27,7 @@ const generateId = (prefix) => `${prefix}-${Date.now()}-${Math.random().toString
  * entrada por voz, feedback, sugestões, métricas e exportação.
  * Identidade visual e textual atualizada para a marca FLYRA.
  */
-export default function ChatWindow({ apiUrl = DEFAULT_API_URL }) {
+export default function ChatWindow({ apiUrl = DEFAULT_API_URL, initialPrompt = null }) {
   const [messages, setMessages] = useState([
     {
       id: 'welcome-01',
@@ -58,6 +58,7 @@ export default function ChatWindow({ apiUrl = DEFAULT_API_URL }) {
   const [sessionId] = useState(() => generateId('session'));
 
   const messagesEndRef = useRef(null);
+  const initialPromptSentRef = useRef(false);
 
   // Auto-scroll suave sempre para a última mensagem
   const scrollToBottom = () => {
@@ -177,6 +178,14 @@ export default function ChatWindow({ apiUrl = DEFAULT_API_URL }) {
       setIsLoading(false);
     }
   };
+
+  // Dispara a pergunta inicial selecionada na tela de boas-vindas (se houver)
+  useEffect(() => {
+    if (initialPrompt && !initialPromptSentRef.current) {
+      initialPromptSentRef.current = true;
+      handleSendMessage(initialPrompt);
+    }
+  }, [initialPrompt]);
 
   // Botões de Feedback (Like / Dislike) → POST /api/feedback
   const handleFeedback = async (messageId, isPositive) => {
