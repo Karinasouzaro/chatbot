@@ -1,0 +1,83 @@
+{
+  "empresa": "AfesuTech Soluções Inteligentes",
+  "descricao": "A AfesuTech Soluções Inteligentes é líder no desenvolvimento de soluções corporativas baseadas em Inteligência Artificial Generativa, automação de fluxos de trabalho e agentes conversacionais inteligentes que transformam o atendimento ao cliente e impulsionam a produtividade de empresas de todos os portes.",
+  "topicos": [
+    {
+      "id": "sobre",
+      "perguntas_chave": [
+        "Quem é a AfesuTech?",
+        "O que a AfesuTech faz?",
+        "Sobre a empresa",
+        "Me fale sobre a AfesuTech",
+        "Qual o objetivo da AfesuTech?",
+        "O que vocês vendem?"
+      ],
+      "resposta": "✨ **Bem-vindo à AfesuTech Soluções Inteligentes!**\n\nSomos especialistas em criar soluções corporativas de ponta com **Inteligência Artificial Generativa**, automação de processos e agentes virtuais sob medida.\n\n🚀 **Nossa Missão:** Democratizar o poder da IA para modernizar empresas, otimizando o tempo da sua equipe e encantando seus clientes com atendimento ágil e humanizado.\n\n🌐 Saiba mais visitando nosso portal oficial ou falando diretamente com nosso time de consultores!"
+    },
+    {
+      "id": "planos_precos",
+      "perguntas_chave": [
+        "Quais são os planos e preços?",
+        "Quanto custa?",
+        "Valores dos serviços",
+        "Tabela de preços",
+        "Qual o valor da mensalidade?",
+        "Vocês têm plano gratuito ou teste?"
+      ],
+      "resposta": "💼 **Nossos Planos e Preços**\n\nOferecemos opções flexíveis e escaláveis para acompanhar o crescimento do seu negócio:\n\n* 🔹 **Starter (R$ 149/mês):** Ideal para pequenas empresas, até 2.000 mensagens/mês e suporte por e-mail.\n* 🔹 **Professional (R$ 399/mês):** Até 10.000 mensagens/mês, integração multicanal (WhatsApp/Web) e suporte prioritário.\n* 🔹 **Enterprise (Sob consulta):** Mensagens ilimitadas, modelos de IA personalizados, SLA garantido e gerente de contas dedicado.\n\n🎁 *Oferecemos 14 dias de teste grátis sem necessidade de cartão de crédito!*"
+    },
+    {
+      "id": "suporte_tecnico",
+      "perguntas_chave": [
+        "Como funciona o suporte técnico?",
+        "Preciso de ajuda técnica",
+        "O sistema está fora do ar",
+        "Estou com problemas no sistema",
+        "Qual o horário de atendimento do suporte?",
+        "Como abrir um chamado?"
+      ],
+      "resposta": "🛠️ **Suporte Técnico AfesuTech**\n\nEstamos à disposição para ajudar você a resolver qualquer questão técnica com máxima agilidade:\n\n* ⏰ **Horário de Atendimento:** Segunda a sexta-feira, das 08h às 20h (Horário de Brasília).\n* 🎫 **Abertura de Chamados:** Pelo portal do cliente em `suporte.afesutech.com` ou via e-mail para `suporte@afesutech.com`.\n* 🚨 **Emergências e Incidentes Críticos:** Clientes Enterprise contam com atendimento 24/7 com SLA de resposta em até 15 minutos."
+    },
+    {
+      "id": "integracao_api",
+      "perguntas_chave": [
+        "Como integrar a API da AfesuTech?",
+        "Como faço a integração com React e Python?",
+        "Vocês têm documentação de API?",
+        "Posso integrar com WhatsApp e CRM?",
+        "Como funciona a integração?",
+        "Vocês fornecem Webhooks e SDKs?"
+      ],
+      "resposta": "🔌 **Integrações e API Robustas**\n\nNossa plataforma foi desenvolvida com arquitetura *API-first* para facilitar qualquer integração:\n\n* 📖 **Documentação Completa:** Acesse `docs.afesutech.com` para guias completos de APIs REST, GraphQL e bibliotecas em Python e Node.js.\n* 💬 **Canais Suportados:** WhatsApp Business, Telegram, Slack, Microsoft Teams e Widget Web.\n* 🔄 **CRMs e Ferramentas:** Integração nativa com HubSpot, Salesforce, RD Station, além de suporte a Webhooks personalizáveis."
+    },
+    {
+      "id": "ia_generativa",
+      "perguntas_chave": [
+        "Quais modelos de IA vocês utilizam?",
+        "Vocês usam ChatGPT ou Gemini?",
+        "Como a IA aprende os dados da minha empresa?",
+        "Meus dados estão seguros na IA?",
+        "Vocês usam RAG (Retrieval-Augmented Generation)?"
+      ],
+      "resposta": "🧠 **Tecnologia de Inteligência Artificial & RAG**\n\nCombinamos os mais modernos modelos de linguagem com arquitetura de recuperação de informação proprietária:\n\n* 🔒 **Privacidade Total:** Seus dados corporativos são criptografados de ponta a ponta e **nunca** utilizados para treinamento de modelos de terceiros.\n* 📚 **Arquitetura RAG Avançada:** A IA consulta em tempo real a base de conhecimento interna da sua empresa para fornecer respostas precisas, contextualizadas e sem alucinações.\n* ⚡ **Modelos de Ponta:** Suporte aos modelos Gemini 1.5/2.0, GPT-4o e modelos open-source locais via Ollama."
+    },
+    {
+      "id": "cancelamento_reembolso",
+      "perguntas_chave": [
+        "Como cancelar minha assinatura?",
+        "Quero meu dinheiro de volta",
+        "Política de cancelamento e reembolso",
+        "Como pedir estorno?",
+        "Posso cancelar a qualquer momento?",
+        "Tem multa de fidelidade?"
+      ],
+      "resposta": "📄 **Cancelamento e Política de Reembolso**\n\nPriorizamos a transparência e a flexibilidade dos nossos parceiros:\n\n* 🔓 **Sem Fidelidade:** Você pode cancelar sua assinatura mensal a qualquer momento pelo painel administrativo, sem multas contratuais.\n* 💰 **Garantia de Satisfação (7 dias):** Devolução de 100% do valor caso solicite o cancelamento nos primeiros 7 dias de contratação.\n* ✉️ **Atendimento Financeiro:** Solicitações de estorno e dúvidas sobre faturamento podem ser tratadas pelo e-mail `financeiro@afesutech.com`."
+    }
+  ],
+  "faq_rapido": [
+    "Quais são os planos e preços disponíveis?",
+    "Como funciona o suporte técnico e quais os canais?",
+    "É possível integrar o chatbot com WhatsApp e CRM?",
+    "Como a IA garante a segurança e privacidade dos meus dados?"
+  ]
+}
